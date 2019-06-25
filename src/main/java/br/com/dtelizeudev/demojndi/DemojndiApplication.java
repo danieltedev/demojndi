@@ -36,7 +36,7 @@ public class DemojndiApplication {
 				resource.setType(DataSource.class.getName());
 				resource.setProperty("factory", DataSourceFactory.class.getName());
 				resource.setProperty("driverClassName", "net.sourceforge.jtds.jdbc.Driver");
-				resource.setProperty("url", "jdbc:jtds:sqlserver://1.1.0.1:1433/db_Bradesco_NeoFlow_Desenv;");
+				resource.setProperty("url", "jdbc:jtds:sqlserver://1.1.0.1:1433/desenv;");
 				resource.setProperty("username", "");
 				resource.setProperty("password", "");
 
